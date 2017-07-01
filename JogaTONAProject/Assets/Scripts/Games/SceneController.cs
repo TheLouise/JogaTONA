@@ -20,7 +20,7 @@ public class SceneController : MonoBehaviour {
 	private bool bloquear;
 
 	// Use this for initialization
-	void Start () {
+	public void Start () {
 		timer = 5;
 		oldTimer = timer;
 
