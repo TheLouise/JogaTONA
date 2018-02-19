@@ -7,3 +7,15 @@ But this gamejam was kinda of the end of a cycle in the game development scene i
 The themes we got were "What is happening?", "Milk" and "My colors are different" which got us promptly thinking about minigame collection where you would collect colorful milk to make a rainbow milk, the most obvious choice.
 
 The game is actually broken. Some minigames doesn't work and you don't actually collect milkshakes but hey, we tried.
+
+## Licensing
+
+### Code
+
+All code are distributed under the [MIT License](LICENSE.md)
+
+### Assets
+
+Unless mentioned otherwise, all art assets (files in assets/ and Resources/) are distributed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+Artist: André Andrade
