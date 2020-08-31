@@ -8,6 +8,10 @@ The themes we got were "What is happening?", "Milk" and "My colors are different
 
 The game is actually broken. Some minigames doesn't work and you don't actually collect milkshakes but hey, we tried.
 
+## Update
+
+Hi! It's me, Heloísa. After 2 years (yes, this devlog is from 2020), I found this amazing project at my github and finished it! Now the game works and we have milkshakes. I'm going to add it to my itch.io page ehehehe
+
 ## Licensing
 
 ### Code
@@ -19,3 +23,4 @@ All code are distributed under the [MIT License](LICENSE.md)
 Unless mentioned otherwise, all art assets (files in assets/ and Resources/) are distributed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 Artist: André Andrade
+Programer: André Andrade and Heloísa Medeiros

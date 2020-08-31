@@ -10,6 +10,7 @@ public class SceneController : MonoBehaviour {
 
 	public GameObject ganhou;
 	public GameObject perdeu;
+    public Image currentMilkshake;
 
 	protected float timer;
 	public bool isRunning;
@@ -32,7 +33,8 @@ public class SceneController : MonoBehaviour {
 		perdeu.SetActive (false);
 
 		bloquear = false;
-	}
+        currentMilkshake.sprite = JogoController.GetMilkshake();
+    }
 
 	// Update is called once per frame
 	public void Update () {

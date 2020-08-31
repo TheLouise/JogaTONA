@@ -39,6 +39,6 @@ public class RCFazendeiro : MonoBehaviour {
 	}
 
 	void DestroyFazendeiro() {
-		transform.localScale += new Vector3 (5f, 5f, 5f);
+        gameObject.SetActive(false);
 	}
 }

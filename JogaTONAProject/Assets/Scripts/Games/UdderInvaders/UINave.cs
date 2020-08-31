@@ -18,17 +18,19 @@ public class UINave : MonoBehaviour {
 	void Update () {
 		if (destruida == true) {
 			transform.localScale -= new Vector3 (0.1f, 0.1f, 0.1f);
-			Invoke ("DestroyNave", 1);
+			Invoke ("DestroyNave", 0.5f);
 		}
 	}
 
 	void OnCollisionEnter2D(Collision2D col) {
 		if (col.gameObject.CompareTag ("bala")) {
+            UIScene scene = GameObject.Find("SceneController").GetComponent<UIScene>();
+            scene.score++;
 			destruida = true;
 		}
 	}
 
 	void DestroyNave(){
-		Destroy (gameObject);
+        Destroy(gameObject);
 	}
 }
